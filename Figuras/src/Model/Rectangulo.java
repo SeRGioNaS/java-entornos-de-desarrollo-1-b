@@ -11,8 +11,8 @@ public class Rectangulo extends Figura {
 	/**
 	 * Constructor que recibe como parametros la base y la altura de un rectangulo
 	 * 
-	 * @param base   La longitud de la base del rectangulo
-	 * @param altura La longitud de la altura del rectangulo
+	 * @param 
+	 * @param 
 	 */
 	public Rectangulo(int base, int altura) {
 		this.base = base;
@@ -26,42 +26,42 @@ public class Rectangulo extends Figura {
 		altura = 1;
 	}
 	/**
-	 * @return La base del rectangulo
+	 * @return
 	 */
 	public int getBase() {
 		return base;
 	}
 
 	/**
-	 * @return La altura del rectangulo
+	 * @return
 	 */
 	public int getAltura() {
 		return altura;
 	}
 
 	/**
-	 * @return La base del rectangulo
+	 * @return
 	 */
 	public void setBase(int base) {
 		// TODO implement here
 	}
 
 	/**
-	 * @return La altura del rectangulo
+	 * @return
 	 */
 	public void setAltura(int altura) {
 		// TODO implement here
 	}
 
 	/**
-	 * @return Una cadena con la base y la altura del rectangulo
+	 * @return
 	 */
 	public String toString() {
 		return "La base es " + base + " y la altura es " + altura;
 	}
 
 	/**
-	 * Metodo que devuelve el area del rectangulo
+	 * Metodo sobreescrito que devuelve el area del rectangulo
 	 */
 	public double area() {
 		int area = base * altura;
@@ -69,7 +69,7 @@ public class Rectangulo extends Figura {
 	}
 
 	/**
-	 * Metodo que devuelve el perimetro del rectangulo
+	 * Metodo sobreescrito que devuelve el perimetro del rectangulo
 	 */
 	public double perimetro() {
 		double perimetro = (2 * base) + (2 * altura);

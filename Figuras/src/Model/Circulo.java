@@ -28,7 +28,7 @@ public class Circulo extends Figura {
 	}
 
 	/**
-	 * @return El radio del circulo
+	 * @return
 	 */
 	public int getRadio() {
 		return radio;
@@ -42,14 +42,14 @@ public class Circulo extends Figura {
 	}
 
 	/**
-	 * @return Devuelve una cadena con el radio del circulo
+	 * @return
 	 */
 	public String toString() {
 		return "El radio del circulo es " + radio;
 	}
 
 	/**
-	 * Metodo que devuelve el perimetro del circulo
+	 * Metodo sobreescrito que devuelve el perimetro del circulo
 	 */
 	
 	public double perimetro() {
@@ -58,7 +58,7 @@ public class Circulo extends Figura {
 	}
 
 	/**
-	 * Metodo que devuelve el area del circulo
+	 * Metodo sobreescrito que devuelve el area del circulo
 	 */
 	public double area() {
 		double area = (2 * Math.PI * radio * radio);

@@ -1,6 +1,8 @@
 package Model;
 
-
+/**
+ * Representa la clase abstracta Figura
+ */
 public abstract class Figura {
 	
 	/**
