@@ -20,7 +20,13 @@ public class Rectangulo {
 		this.base = base;
 		this.altura = altura;
 	}
-
+	/**
+	 * Constructor vacio que crea un rectangulo de 1x1
+	 */
+	public Rectangulo() {
+		base = 1;
+		altura = 1;
+	}
 	/**
 	 * @return La base del rectangulo
 	 */
