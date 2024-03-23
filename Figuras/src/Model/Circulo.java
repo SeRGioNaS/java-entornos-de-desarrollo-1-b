@@ -1,11 +1,10 @@
 package Model;
 
-import java.util.*;
 
 /**
  * Representa un circulo
  */
-public class Circulo {
+public class Circulo extends Figura {
 
 	/**
 	 * 
@@ -52,6 +51,7 @@ public class Circulo {
 	/**
 	 * Metodo que devuelve el perimetro del circulo
 	 */
+	
 	public double perimetro() {
 		double perimetro = (2 * radio * Math.PI);
 		return perimetro;

@@ -1,11 +1,9 @@
 package Model;
 
-import java.util.*;
-
 /**
  * Representa un rectangulo
  */
-public class Rectangulo {
+public class Rectangulo extends Figura {
 
 	private int base;
 	private int altura;
@@ -65,7 +63,7 @@ public class Rectangulo {
 	/**
 	 * Metodo que devuelve el area del rectangulo
 	 */
-	public int area() {
+	public double area() {
 		int area = base * altura;
 		return area;
 	}
@@ -73,8 +71,8 @@ public class Rectangulo {
 	/**
 	 * Metodo que devuelve el perimetro del rectangulo
 	 */
-	public int perimetro() {
-		int perimetro = (2 * base) + (2 * altura);
+	public double perimetro() {
+		double perimetro = (2 * base) + (2 * altura);
 		return perimetro;
 	}
 
